@@ -72,6 +72,7 @@ public class Bai2 {
                 for(int i = 0;i<n;i++){
                     System.out.printf("%d ", numbers[i]);
                 }
+                System.out.println();
             }
             else if (function==0){
                 check = false;
@@ -83,7 +84,7 @@ public class Bai2 {
         System.out.println("----------------MENU--------------");
         System.out.println("1. Nhap mang");
         System.out.println("2. Xuat mang");
-        System.out.println("3. Tim phan tu dau tien trong mang");
+        System.out.println("3. Tim phan tu am dau tien trong mang");
         System.out.println("4. Xuat ra phan tu lon nhat");
         System.out.println("5. Tinh tong phan tu trong mang");
         System.out.println("6. Sap xep mang tang dan");
