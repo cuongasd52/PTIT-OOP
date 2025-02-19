@@ -8,9 +8,11 @@ public class Bai1 {
             try{
                 mark  = scanner.nextDouble();
                 if (mark<0 || mark >10){
+                    //Ném ra ngoại lệ IllegalArgumentException với thông báo lỗi
+                    //Có thể tạo một ngoại lệ khác ví d: DiemSoKhongHopLeException
                     throw new IllegalArgumentException("Diem so phai nam trong khoang 1 toi 10");
                 }
-                break;
+                else break;
 
             }catch(IllegalArgumentException e){
                 System.out.println("Loi: "+ e.getMessage());
