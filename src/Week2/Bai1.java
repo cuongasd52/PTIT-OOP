@@ -1,6 +1,7 @@
+package Week2;
 import java.util.Scanner;
 
-public class Bai21 {
+public class Bai1 {
     static public void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double mark;
