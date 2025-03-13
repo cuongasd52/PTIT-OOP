@@ -20,6 +20,6 @@ public class Bai10 {
          else if (a==b ||a==c||b==c){
              System.out.println("Tam giac can");
          }
-         else System.out.println("Tam giac thuong");
+         else System.out.println("Tam giac binh thuong");
     }
 }
